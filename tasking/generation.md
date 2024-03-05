@@ -4,13 +4,14 @@
 
 ## A. Factual Responses for Given Data
 
-1. Description
+## 1. Description
 
-   - how many columns in the dataset from the CSV file contain outliers?
-   - how many columns in the dataset from population.xls contain negative values?
-   - how many columns in the dataset from population.csv contain empty strings?
-   - tell me the number of columns in the dataset that have only one ASCII character from the CSV?
-   - tell me the number of columns in the dataset which have null values?
+- **Hey, can you give me the distribution of salary for employees older than 30 in the salary.csv file I provided?**
+- how many columns in the dataset from the CSV file contain outliers?
+- how many columns in the dataset from population.xls contain negative values?
+- how many columns in the dataset from population.csv contain empty strings?
+- tell me the number of columns in the dataset that have only one ASCII character from the CSV?
+- tell me the number of columns in the dataset which have null values?
 
 2. Retrieval
 
@@ -73,7 +74,7 @@
    - Compute the average rating for each product based on customer reviews.
      Derive a column indicating the season of the year based on the date.
 
-5. Data Transformation (Join Tables)
+5. (M) Data Transformation (Join Tables)
 
    - **"Merge table X and Y on key Z"**
    - **“Add the data from [file name a] to [file name b] and join on column x and y”**
@@ -125,6 +126,7 @@ Spreading a column into multiple columns, often referred to as "pivoting" or "re
 
 Simple explicit metric calculations are essential for understanding and analyzing datasets effectively
 
+- **Given the dataset "car_info_02.csv", determine the average acceleration of all vehicles whose country of origin is usa.**
 - Calculate the total sum of sales revenue for a specific time period.
 - Determine the average price of products in the dataset.
 - Compute the total number of transactions recorded in the dataset.
@@ -223,6 +225,8 @@ Customer Lifetime Value Optimization: Develop strategies to maximize CLV through
 
 These questions help visualize various aspects of the dataset, making it easier to identify trends, patterns, and insights for analysis and decision-making.
 
+- **Create a stacked bar chart representing the distribution of 'cylinders' within each 'origin'. I have attached the dataset. Please provide me with the code.**
+- **Based on the file exam_score_03.csv, I want you to plot in a 3D Scatter plot of the exams scores for female students, plotting the data with different colours and markers according to the weekly hours of study. Set the size of the plot as 12x12. Make sure that all the axis labels are shown correctly, adding an additional padding if necessary**
 - **“Create a pie chart showing marketing spend by channel”**
 - Plot a line chart showing the trend of sales revenue over time (e.g., monthly or quarterly sales).
 - Create a bar chart comparing the sales performance of different product categories in terms of total revenue generated.
